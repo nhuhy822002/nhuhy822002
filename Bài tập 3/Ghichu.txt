@@ -1,0 +1,33 @@
+%d la mot gia tri nao do
+" = " là toán tử gán 
+" == " là so sánh hoặc quan hệ  
+pt = '+'
+pt gán giá trị ngẫu nhiên 
+printf("Nhap phep tinh: "); khi Run => Nhap phep tinh: + a + b = 
+bai tap vong lap ( for loop ) : " ++ " la toan tu tang ;link tham khao : https://www.programiz.com/c-programming/c-for-loop
+" ++i " tuong dong voi i = i + 1
+" -- " la toan tu giam
+" --i " tuong duong voi i = i - 1
+dem la "num" 
+for ( dem = 1; dem <=10; dem = dem + 1 hoac dem++ hoac dem +=1) co the thay the so khac
+statement1; có thể là printf();   " else if "
+
+- bai tap 1 : bang cuu chuong
+khai bao bien : int : i ; j , 
+for ( loop ) 
+- bai tap 2 : Giải phương trình bậc 2 : ax² + bx + c = 0 - Lập trình C
+ax2 + bx + c = 0 
++) a = 0 co truong hop nhu sau :
+neu b = 0 -> c = 0 => Vô nghiệm
++) trường hợp b # 0 -> bx = -c phương trình có nghiệm đơn x = - c/b
+* a # 0
+delta = b*b - 4*a*c
++ delta > 0 -> phương trình có 2 nghiệm
++ delta = 0 -> phuong trình có nghiệm kép
++ delta < 0 ( else ) -> vô nghiệm
+#include <math.h> ( toán học ) 
+void GiaiPhuongTrinhBacHia(float a, float b, float c); hàm float
+(-b + sqrt delta) hàm sqrt căn bậc 2 của delta 
+scanf "nhập hệ số"  ( "%f" ,&a); vd1 : a = 0 , b = 2 , c = 3 -> phuong trinh co 1 nghiem : x = -1.5 ; vd2 : a = 0 , b = 0 , c = 1 -> phuong trinh vo nghiem ; vd3: a = 1 , b = 2 , c = -1 -> phuong trinh co 2 nghiem : x1 = 0,41 , x2 = -2.41 ; vd4 : a = 1 , b = 2 , c = 1 -> phuong trinh co nghiem kep: x1 = x2 = -1
+- bai tap 3 : Viết chương trình in ra các số lẻ từ 1 đến 20 ngoại trừ các số 5, 11, 15
+lệnh " continue " Đối với vòng lặp for, câu lệnh continue làm cho điều khiển chương trình tăng hoặc giảm biến đếm của vòng lặp. Đối với vòng lặp while và do-while, câu lệnh continue làm cho điều khiển chương trình quay về đầu vòng lặp và kiểm tra điều kiện của vòng lặp.

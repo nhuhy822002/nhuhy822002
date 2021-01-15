@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main (void){
+	// Khai bao DT,CV,R kieu double va gan R=1.5
+	double R;
+		R = 1.5;
+		
+	// khai bao PI=3.14 kieu double	
+	double PI =3.14;
+	
+	// tinh chu vi va dien tich ra man hinh 
+	printf("Chu vi\t   Dien Tich\n");
+	
+	// khai bao VC va DT
+	double CV , DT;
+	
+	//gan VC voi cong thuc 2*R*PI va DT voi cong thuc la R*R*PI 
+	CV = 2*R*PI;
+	DT = R*R*PI;
+	
+	// tinh ket qua CV va DT ra man hinh
+	printf("%g\t   %g",CV,DT);
+	
+	return 0;
+}		
+
+
